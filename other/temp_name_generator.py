@@ -12,6 +12,7 @@ class TempNameGenerator:
         """
         Method for generate new random name
 
+        :param number_of_symbols: int, length of result string
         :return: str, new name
         """
 
