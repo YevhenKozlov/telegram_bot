@@ -131,6 +131,6 @@ dmypy.json
 # Other
 .idea/
 configs/
-temp_photos/
+temp/
 *.tmp
 *.ini

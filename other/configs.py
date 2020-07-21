@@ -65,9 +65,6 @@ class MainConfig(Config):
 
     Options:
         self.telegram_token - str, telegram-bot token
-        self.p2i_token - str, Page2Images (https://www.page2images.com/) API token
-        self.quality - str, image quality in percent
-        self.size - str, image size (1000x1000, 1920x1080, etc.)
 
     Hints in PyCharm not worked
     """
