@@ -61,8 +61,6 @@ class Config(ABC):
 
 class MainConfig(Config):
     """
-    Class 'MainConfig'
-
     Options:
         self.telegram_token - str, telegram-bot token
 
