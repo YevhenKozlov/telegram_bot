@@ -74,4 +74,5 @@ def text_message(message: types.Message):
             break
 
 
-bot.polling()
+if __name__ == '__main__':
+    bot.polling()
