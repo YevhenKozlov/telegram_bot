@@ -14,4 +14,4 @@
 telegram_token = your_token
 ```
 
-Для запуска бота необходимо выполнить: `python3 start.py`.
+Для запуска бота необходимо выполнить: `python3 __main__.py`.
