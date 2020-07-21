@@ -40,9 +40,9 @@ def text_message(message: types.Message):
     api_url = f'http://api.page2images.com/restfullink' \
               f'?p2i_url={message.text}' \
               f'&p2i_key={config.p2i_token}' \
-              f'&p2i_size={config.p2i_size}' \
-              f'&p2i_screen={config.p2i_size}' \
-              f'&p2i_quality={config.p2i_quality}'
+              f'&p2i_size={config.size}' \
+              f'&p2i_screen={config.size}' \
+              f'&p2i_quality={config.quality}'
 
     while True:
         try:
