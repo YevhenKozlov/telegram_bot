@@ -13,7 +13,7 @@ from telebot import types
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from core import MainConfig
+from other import MainConfig
 
 # initialization bot
 config = MainConfig()
